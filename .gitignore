@@ -1,5 +1,6 @@
 .gradle
 .idea
+*.iml
 
 ### Java ###
 # Compiled class file
