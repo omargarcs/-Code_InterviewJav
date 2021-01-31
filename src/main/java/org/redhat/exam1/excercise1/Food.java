@@ -1,4 +1,4 @@
-package org.redhat.exam1;
+package org.redhat.exam1.excercise1;
 
 public class Food {
     protected String name;
