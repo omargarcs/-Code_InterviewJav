@@ -1,6 +1,6 @@
 package org.redhat.exam1.excercise1;
 
-public class Food {
+public class Food extends Main{
     protected String name;
     protected String servicing;
 
