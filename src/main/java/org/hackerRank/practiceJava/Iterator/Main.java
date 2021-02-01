@@ -9,8 +9,8 @@ public class Main{
     static Iterator func(ArrayList mylist){
         Iterator it=mylist.iterator();
         while(it.hasNext()){
-            Object element = it.next();
-            if(element instanceof String)//Hints: use instanceof operator
+            Object element = it.next(); //Empty Field
+            if(element instanceof String)//Hints: use instanceof operator //Empty Field
 
                 break;
         }

@@ -14,11 +14,11 @@ class InstanceOFTutorial{
         int a = 0,b = 0,c = 0;
         for(int i = 0; i < mylist.size(); i++){
             Object element=mylist.get(i);
-            if(element instanceof Student)
+            if(element instanceof Student) //Empty Field
                 a++;
-            if(element instanceof Rockstar)
+            if(element instanceof Rockstar)//Empty Field
                 b++;
-            if(element instanceof Hacker)
+            if(element instanceof Hacker)//Empty Field
                 c++;
         }
         String ret = Integer.toString(a)+" "+ Integer.toString(b)+" "+ Integer.toString(c);
